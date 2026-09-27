@@ -45,3 +45,8 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_default
+
+- rule: Responder sobre acesso básico
+  steps:
+  - intent: perguntar_acesso_basico
+  - action: utter_resposta_acesso_basico
