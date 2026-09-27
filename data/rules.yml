@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+- rule: Responder sobre gratuidade
+  steps:
+  - intent: perguntar_gratuidade
+  - action: utter_resposta_gratuidade
+
+- rule: Responder sobre certificado
+  steps:
+  - intent: perguntar_certificado
+  - action: utter_resposta_certificado
+
+- rule: Responder sobre cursos disponíveis
+  steps:
+  - intent: perguntar_cursos_disponiveis
+  - action: utter_resposta_cursos_disponiveis
+
+- rule: Responder sempre a saudacao
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+
+- rule: Responder sempre a despedida
+  steps:
+  - intent: despedida
+  - action: utter_despedida
+
+- rule: Responder sempre a agradecimento
+  steps:
+  - intent: agradecer
+  - action: utter_de_nada
+
+- rule: Tratar perguntas fora do escopo
+  steps:
+  - intent: fora_de_escopo
+  - action: utter_fora_de_escopo
+
+- rule: Responder ao Fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_default
