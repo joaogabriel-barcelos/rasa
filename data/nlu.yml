@@ -12,6 +12,9 @@ nlu:
     - Precisa pagar para fazer os cursos?
     - Quanto custa para estudar aqui?
     - É pago?
+    - isso aqui é de graça
+    - tem que pagar alguma coisa
+    - o curso é gratis mesmo
 
 - intent: perguntar_certificado
   examples: |
@@ -23,49 +26,11 @@ nlu:
     - Quero o meu certificado
     - O curso de [Gestão](curso) dá direito a certificado?
     - Como pego meu diploma?
+    - onde fica o certificado
+    - como eu baixo meu certificado
+    - cade meu certificado
+    - o certificado sai automatico
 
-- intent: perguntar_cursos_disponiveis
-  examples: |
-    - Quais cursos tem disponíveis?
-    - Cursos
-    - Quais são os cursos da plataforma?
-    - Quais opções de aulas vocês têm?
-    - O que posso estudar aqui?
-    - Acesso ao curso
-
-- intent: saudacao
-  examples: |
-    - oi
-    - ola
-    - bom dia
-    - boa tarde
-    - olá, bom dia
-
-- intent: despedida
-  examples: |
-    - tchau
-    - ate logo
-    - muito obrigado, tchau
-
-- intent: agradecer
-  examples: |
-    - obrigado
-    - valeu
-    - muito obrigada
-
-- intent: fora_de_escopo
-  examples: |
-    - qual a previsao do tempo para hoje?
-    - qual a previsão do tempo hoje?
-    - você gosta de pizza?
-    - quem vai ganhar o jogo hoje?
-    - qual o seu nome?
-    - qual o meu nome?
-    - quem é você?
-    - você é um robô?
-    - teste
-    - teste de QA
-    - testando 123
 - intent: perguntar_cursos_disponiveis
   examples: |
     - Quais cursos tem disponíveis?
@@ -77,6 +42,63 @@ nlu:
     - O curso de [gestão](curso) está disponível?
     - Tem curso de [python](curso)?
     - Quero saber se tem curso de design
+    - quais cursos voces tem
+    - tem curso de marketing
+    - lista de cursos
+
+- intent: saudacao
+  examples: |
+    - oi
+    - ola
+    - bom dia
+    - boa tarde
+    - olá, bom dia
+    - oii
+    - opa
+    - e ai
+    - boa noite
+    - ola tudo bem
+
+- intent: despedida
+  examples: |
+    - tchau
+    - ate logo
+    - muito obrigado, tchau
+    - falou
+    - até mais
+    - vou indo, tchau
+
+- intent: agradecer
+  examples: |
+    - obrigado
+    - valeu
+    - muito obrigada
+    - obrigadao
+    - vlw
+    - agradecido
+
+- intent: fora_de_escopo
+  examples: |
+    - qual a previsao do tempo para hoje?
+    - qual a previsão do tempo hoje?
+    - você gosta de pizza?
+    - quem vai ganhar o jogo hoje?
+    - qual o seu nome?
+    - qual o meu nome?
+    - qual o seu nome
+    - qual o meu nome
+    - qual é seu nome
+    - qual é meu nome
+    - quem é você?
+    - você é um robô?
+    - teste
+    - teste de QA
+    - testando 123
+    - você tem namorada
+    - conta uma piada
+    - quantos anos você tem
+    - de onde você é
+    - vc é humano ou robo
 
 - intent: perguntar_tempo_acesso
   examples: |
@@ -86,6 +108,9 @@ nlu:
     - O acesso é vitalício?
     - Qual o prazo limite para terminar o curso?
     - Até quando posso assistir as aulas?
+    - o acesso expira
+    - por quanto tempo fico com acesso ao curso
+    - tenho prazo pra terminar o curso
 
 - intent: perguntar_acesso_basico
   examples: |
@@ -95,6 +120,8 @@ nlu:
     - O que eu ganho no acesso gratuito?
     - O que significa acesso básico?
     - O que tem no acesso básico?
+    - o que vem no plano gratuito
+    - o acesso basico inclui o que
 
 - intent: perguntar_acesso_pago
   examples: |
@@ -107,3 +134,18 @@ nlu:
     - Como funciona a venda de cursos?
     - Posso parcelar o valor?
     - Tem curso pago?
+    - quanto custa o curso premium
+    - da pra pagar no pix
+
+- intent: perguntar_diferenca_planos
+  examples: |
+    - Qual a diferença do acesso pago ao gratuito?
+    - Qual a diferença entre o acesso pago e o gratuito?
+    - Qual a diferença entre o plano pago e o plano gratuito?
+    - O que muda do acesso gratuito para o pago?
+    - Pago ou gratuito, qual a diferença?
+    - Qual a diferença entre premium e gratis?
+    - O acesso pago tem o que a mais que o gratuito?
+    - Vale a pena pagar em vez de usar o gratuito?
+    - O plano pago tem mais vantagens que o básico?
+    - qual a diferenca entre pago e gratis
