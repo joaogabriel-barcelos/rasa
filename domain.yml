@@ -49,6 +49,12 @@ responses:
   utter_default:
   - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
 
+  utter_resposta_gratuidade:
+  - text: "O acesso básico à nossa plataforma é 100% gratuito! Você pode assistir às aulas e emitir certificados sem pagar nada."
+
+  utter_resposta_acesso_basico:
+  - text: "O acesso básico garante acesso ilimitado a todas as videoaulas, materiais de apoio para download e emissão de certificado ao concluir o curso!"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
