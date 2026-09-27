@@ -50,6 +50,7 @@ nlu:
   examples: |
     - oi
     - ola
+    - olá
     - bom dia
     - boa tarde
     - olá, bom dia
@@ -58,6 +59,10 @@ nlu:
     - e ai
     - boa noite
     - ola tudo bem
+    - tudo bem
+    - Tudo bem
+    - bem
+    
 
 - intent: despedida
   examples: |
@@ -76,6 +81,10 @@ nlu:
     - obrigadao
     - vlw
     - agradecido
+    - obrigada
+    - agaradecido
+    - agradecida
+    
 
 - intent: fora_de_escopo
   examples: |
@@ -99,6 +108,25 @@ nlu:
     - quantos anos você tem
     - de onde você é
     - vc é humano ou robo
+    - cdhcbdh
+    - djhfvd
+    - asdkjfh
+    - kjfhueyt
+    - xpto123
+    - zxcvbnm
+    - qwerty
+    - blablabla
+    - asdfgh
+    - sadjkasd
+    - 12345
+    - aaaaaa
+    - jshdfkjshdf
+    - jjjjjjjjjjj
+    - yolo
+    - kkkkkkkkkkk
+    - shshshshs
+    - hahahahahaha
+    
 
 - intent: perguntar_tempo_acesso
   examples: |
