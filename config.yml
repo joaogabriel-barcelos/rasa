@@ -1,0 +1,18 @@
+recipe: default.v1
+language: pt
+
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 150
+  - name: EntitySynonymMapper
+  - name: FallbackClassifier
+    threshold: 0.40
+    ambiguity_threshold: 0.1
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
