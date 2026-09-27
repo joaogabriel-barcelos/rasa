@@ -59,6 +59,13 @@ nlu:
     - qual a previsão do tempo hoje?
     - você gosta de pizza?
     - quem vai ganhar o jogo hoje?
+    - qual o seu nome?
+    - qual o meu nome?
+    - quem é você?
+    - você é um robô?
+    - teste
+    - teste de QA
+    - testando 123
 - intent: perguntar_cursos_disponiveis
   examples: |
     - Quais cursos tem disponíveis?
