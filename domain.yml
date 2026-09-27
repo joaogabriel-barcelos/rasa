@@ -1,0 +1,49 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - agradecer
+  - fora_de_escopo
+  - perguntar_gratuidade
+  - perguntar_certificado
+  - perguntar_cursos_disponiveis
+
+entities:
+  - curso
+
+slots:
+  curso:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: curso
+
+responses:
+  utter_saudacao:
+  - text: "Olá! Sou o assistente virtual da plataforma de ensino. Como posso te ajudar com seus estudos hoje?"
+
+  utter_despedida:
+  - text: "Até logo! Bons estudos!"
+
+  utter_de_nada:
+  - text: "Por nada! Se precisar de mais alguma coisa, é só chamar."
+
+  utter_fora_de_escopo:
+  - text: "Desculpe, meu foco é ajudar com dúvidas sobre a nossa plataforma de ensino. Posso te ajudar com certificados, acessos ou cursos?"
+
+  utter_resposta_gratuidade:
+  - text: "O acesso básico à nossa plataforma é totalmente gratuito!"
+
+  utter_resposta_certificado:
+  - text: "Ao concluir 100% das aulas de qualquer curso, o certificado fica disponível para download na aba 'Meus Certificados'."
+
+  utter_resposta_cursos_disponiveis:
+  - text: "Temos cursos nas áreas de Programação (Python, Web), Gestão, Marketing e Design. Você pode ver a lista completa na aba 'Cursos'."
+
+  utter_default:
+  - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
