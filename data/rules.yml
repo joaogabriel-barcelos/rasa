@@ -40,3 +40,8 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_default
+
+  - rule: Responder sobre tempo de acesso
+  steps:
+  - intent: perguntar_tempo_acesso
+  - action: utter_resposta_tempo_acesso
