@@ -55,3 +55,8 @@ rules:
   steps:
   - intent: perguntar_acesso_pago
   - action: utter_resposta_acesso_pago
+
+- rule: Responder sobre diferença entre planos
+  steps:
+  - intent: perguntar_diferenca_planos
+  - action: utter_resposta_diferenca_planos
