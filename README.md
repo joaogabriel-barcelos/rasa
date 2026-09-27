@@ -30,3 +30,12 @@ Não é necessário instalar nada no seu computador! Siga os passos abaixo para 
 Para iniciar a conversa com o chatbot, digite no terminal: **`rasa shell`**
 
 Aguarde a mensagem Bot loaded e comece a conversar com o assistente!
+
+## Sugestões de perguntas
+1. Quais cursos tem disponíveis?
+2. Quanto custa para estudar aqui?
+3. O que é acesso básico?
+4. Qual a diferença do acesso pago ao gratuito?
+5. Quais são as formas de pagamento?
+6. Como faço para emitir meu certificado?
+7. Qual a previsão do tempo hoje? (Bloqueado pelo filtro fora de escopo)
