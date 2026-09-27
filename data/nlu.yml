@@ -88,3 +88,15 @@ nlu:
     - O que eu ganho no acesso gratuito?
     - O que significa acesso básico?
     - O que tem no acesso básico?
+
+- intent: perguntar_acesso_pago
+  examples: |
+    - Quais são as formas de pagamento?
+    - Aceita cartão de crédito?
+    - Tem opção de pagar à vista?
+    - Quanto custam os cursos premium?
+    - Qual o valor do acesso pago?
+    - Quero comprar um curso
+    - Como funciona a venda de cursos?
+    - Posso parcelar o valor?
+    - Tem curso pago?
