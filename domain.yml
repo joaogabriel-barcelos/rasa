@@ -9,6 +9,7 @@ intents:
   - perguntar_certificado
   - perguntar_cursos_disponiveis
   - perguntar_tempo_acesso
+  - perguntar_acesso_basico
 
 entities:
   - curso
