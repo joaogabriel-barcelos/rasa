@@ -8,6 +8,14 @@ intents:
   - perguntar_gratuidade
   - perguntar_certificado
   - perguntar_cursos_disponiveis
+  - saudacao
+  - despedida
+  - agradecer
+  - fora_de_escopo
+  - perguntar_gratuidade
+  - perguntar_certificado
+  - perguntar_cursos_disponiveis
+  - perguntar_tempo_acesso
 
 entities:
   - curso
@@ -43,6 +51,9 @@ responses:
 
   utter_default:
   - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
+
+  utter_resposta_tempo_acesso:
+  - text: "O acesso aos nossos cursos gratuitos fica liberado por 1 ano (12 meses) a partir da data de matrícula. Estude no seu próprio ritmo!"
 
 session_config:
   session_expiration_time: 60
