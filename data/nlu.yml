@@ -79,3 +79,12 @@ nlu:
     - O acesso é vitalício?
     - Qual o prazo limite para terminar o curso?
     - Até quando posso assistir as aulas?
+
+- intent: perguntar_acesso_basico
+  examples: |
+    - O que é acesso básico?
+    - O que está incluso no acesso básico?
+    - O que o plano gratuito oferece?
+    - O que eu ganho no acesso gratuito?
+    - O que significa acesso básico?
+    - O que tem no acesso básico?
