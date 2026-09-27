@@ -10,6 +10,7 @@ intents:
   - perguntar_cursos_disponiveis
   - perguntar_tempo_acesso
   - perguntar_acesso_basico
+  - perguntar_acesso_pago
 
 entities:
   - curso
@@ -54,6 +55,9 @@ responses:
 
   utter_resposta_acesso_basico:
   - text: "O acesso básico garante acesso ilimitado a todas as videoaulas, materiais de apoio para download e emissão de certificado ao concluir o curso!"
+
+  utter_resposta_acesso_pago:
+  - text: "Os valores dos nossos cursos premium e especializações variam conforme a formação escolhida. Aceitamos pagamento à vista (com desconto) ou parcelado no cartão de crédito. Para receber uma proposta detalhada, por favor, entre em contato com o nosso time comercial!"
 
 session_config:
   session_expiration_time: 60
