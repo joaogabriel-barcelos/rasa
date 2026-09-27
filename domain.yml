@@ -11,6 +11,7 @@ intents:
   - perguntar_tempo_acesso
   - perguntar_acesso_basico
   - perguntar_acesso_pago
+  - perguntar_diferenca_planos
 
 entities:
   - curso
@@ -52,6 +53,9 @@ responses:
 
   utter_resposta_acesso_pago:
   - text: "Os valores dos nossos cursos premium e especializações variam conforme a formação escolhida. Aceitamos pagamento à vista (com desconto) ou parcelado no cartão de crédito. Para receber uma proposta detalhada, por favor, entre em contato com o nosso time comercial!"
+
+  utter_resposta_diferenca_planos:
+  - text: "O acesso gratuito (básico) já garante videoaulas ilimitadas, materiais para download e certificado ao concluir o curso. O acesso pago (premium) libera cursos e especializações extras, com pagamento à vista (com desconto) ou parcelado no cartão. Ou seja: o básico cobre o essencial sem custo, e o pago é pra quem quer conteúdo avançado ou uma formação específica."
 
   utter_default:
   - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
