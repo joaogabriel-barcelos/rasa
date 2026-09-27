@@ -8,14 +8,14 @@ Este projeto foi desenvolvido como parte de uma atividade prática para a criaç
 
 O bot foi construído utilizando a biblioteca **Rasa** (framework open-source de PNL) e conta com tratamento de fluxo conversacional, saudações, desvios de assunto (small talk) e mecanismos de fallback.
 
----
+
 
 ## Tecnologias Utilizadas
 * **Python 3.10**
 * **Rasa Framework**
 * **MyBinder** (Ambiente de execução na nuvem)
 
----
+
 
 ## Como Executar e Testar no Binder
 
