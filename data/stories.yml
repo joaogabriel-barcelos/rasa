@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+- story: Fluxo educado completo
+  steps:
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: perguntar_certificado
+  - action: utter_resposta_certificado
+  - intent: agradecer
+  - action: utter_de_nada
+  - intent: despedida
+  - action: utter_despedida
+
+- story: Usuário foge do assunto e volta
+  steps:
+  - intent: fora_de_escopo
+  - action: utter_fora_de_escopo
+  - intent: perguntar_gratuidade
+  - action: utter_resposta_gratuidade
