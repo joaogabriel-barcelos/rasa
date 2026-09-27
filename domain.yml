@@ -8,13 +8,6 @@ intents:
   - perguntar_gratuidade
   - perguntar_certificado
   - perguntar_cursos_disponiveis
-  - saudacao
-  - despedida
-  - agradecer
-  - fora_de_escopo
-  - perguntar_gratuidade
-  - perguntar_certificado
-  - perguntar_cursos_disponiveis
   - perguntar_tempo_acesso
 
 entities:
@@ -49,11 +42,11 @@ responses:
   utter_resposta_cursos_disponiveis:
   - text: "Temos cursos nas áreas de Programação (Python, Web), Gestão, Marketing e Design. Você pode ver a lista completa na aba 'Cursos'."
 
-  utter_default:
-  - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
-
   utter_resposta_tempo_acesso:
   - text: "O acesso aos nossos cursos gratuitos fica liberado por 1 ano (12 meses) a partir da data de matrícula. Estude no seu próprio ritmo!"
+
+  utter_default:
+  - text: "Desculpe, não consegui entender. Você poderia perguntar de outra forma ou usar palavras mais simples?"
 
 session_config:
   session_expiration_time: 60
