@@ -16,6 +16,11 @@ rules:
   - intent: perguntar_cursos_disponiveis
   - action: utter_resposta_cursos_disponiveis
 
+- rule: Responder sobre tempo de acesso
+  steps:
+  - intent: perguntar_tempo_acesso
+  - action: utter_resposta_tempo_acesso
+
 - rule: Responder sempre a saudacao
   steps:
   - intent: saudacao
@@ -40,8 +45,3 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_default
-
-  - rule: Responder sobre tempo de acesso
-  steps:
-  - intent: perguntar_tempo_acesso
-  - action: utter_resposta_tempo_acesso
