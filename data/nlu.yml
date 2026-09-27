@@ -59,3 +59,23 @@ nlu:
     - qual a previsão do tempo hoje?
     - você gosta de pizza?
     - quem vai ganhar o jogo hoje?
+- intent: perguntar_cursos_disponiveis
+  examples: |
+    - Quais cursos tem disponíveis?
+    - Cursos
+    - Quais são os cursos da plataforma?
+    - Quais opções de aulas vocês têm?
+    - O que posso estudar aqui?
+    - Acesso ao curso
+    - O curso de [gestão](curso) está disponível?
+    - Tem curso de [python](curso)?
+    - Quero saber se tem curso de design
+
+- intent: perguntar_tempo_acesso
+  examples: |
+    - O acesso pago dura quanto tempo?
+    - Quanto tempo dura o acesso ao curso?
+    - Por quanto tempo posso acessar as aulas?
+    - O acesso é vitalício?
+    - Qual o prazo limite para terminar o curso?
+    - Até quando posso assistir as aulas?
