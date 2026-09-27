@@ -50,3 +50,8 @@ rules:
   steps:
   - intent: perguntar_acesso_basico
   - action: utter_resposta_acesso_basico
+
+- rule: Responder sobre valores e pagamentos
+  steps:
+  - intent: perguntar_acesso_pago
+  - action: utter_resposta_acesso_pago
