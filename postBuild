@@ -1,0 +1,5 @@
+#!/bin/bash
+# Executado automaticamente pelo repo2docker/MyBinder após instalar o requirements.txt.
+# Treina o modelo Rasa DURANTE a construção do ambiente, para que o modelo
+# já esteja pronto (em models/) quando a pessoa abrir o Binder.
+rasa train
