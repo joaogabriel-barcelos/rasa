@@ -1,2 +1,4 @@
 rasa
 jupyterlab
+ipywidgets
+nest_asyncio
