@@ -15,6 +15,7 @@ nlu:
     - isso aqui é de graça
     - tem que pagar alguma coisa
     - o curso é gratis mesmo
+    - tem que pagar?
 
 - intent: perguntar_certificado
   examples: |
@@ -126,6 +127,12 @@ nlu:
     - kkkkkkkkkkk
     - shshshshs
     - hahahahahaha
+    - preço da pizza
+    - qual o valor da pizza
+    - quero pedir uma pizza
+    - preço do hambúrguer 
+    - vende lanche?
+    
     
 
 - intent: perguntar_tempo_acesso
@@ -164,6 +171,12 @@ nlu:
     - Tem curso pago?
     - quanto custa o curso premium
     - da pra pagar no pix
+    - Valor
+    - Valores
+    - Qual o valor?
+    - Preço
+    - Quanto é?
+    - tem pago?
 
 - intent: perguntar_diferenca_planos
   examples: |
