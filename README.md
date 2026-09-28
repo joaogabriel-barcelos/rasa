@@ -1,6 +1,6 @@
 # Projeto Chatbot 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joaogabriel-barcelos/rasa/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joaogabriel-barcelos/rasa/main?urlpath=terminals/1)
 
 
 ## Objetivo do Projeto
@@ -22,14 +22,10 @@ O bot foi construído utilizando a biblioteca **Rasa** (framework open-source de
 Não é necessário instalar nada no seu computador! Siga os passos abaixo para testar diretamente pelo navegador:
 
 1. Clique no botão **`launch binder`** no início deste documento.
-2. Aguarde até que o ambiente do JupyterLab seja construído e aberto na tela.
-3. No menu superior ou na tela inicial do JupyterLab, abra um **Terminal**.
-4. *(Opcional)* Se o repositório não mantiver o arquivo de modelo gerado, treine a IA digitando: **`rasa train`**
+2. Aguarde até que o ambiente do JupyterLab seja construído. O link abrirá um terminal automaticamente. 
+3. O comando de execução da Inteligência Artificial iniciará sozinho. Aguarde a mensagem `Bot loaded` e o prompt `Your input ->` aparecer na tela.
+4. Comece a conversar com o assistente!
  
-
-Para iniciar a conversa com o chatbot, digite no terminal: **`rasa shell`**
-
-Aguarde a mensagem Bot loaded e comece a conversar com o assistente!
 
 ## Sugestões de perguntas
 1. Quais cursos tem disponíveis?
